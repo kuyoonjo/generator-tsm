@@ -5,11 +5,11 @@ Typescript module code generator.
 ## Usage
 
 ```bash
-npm i -g generator-tsm
+npm i -g @generators/generator-tsm
 ```
 
 ```bash
-yo tsm
+yo @generators/tsm
 ```
 
 Good luck.
