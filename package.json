@@ -1,15 +1,16 @@
 {
   "name": "@generators/generator-tsm",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Typescript module code generator",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/kuyoonjo/generator-tsm.git",
   "author": {
     "name": "Yu Chen",
     "email": "yu@chen.news",
     "url": "https://yu.chen.news"
   },
   "keywords": [
+    "yeoman-generator",
     "generator",
     "yo",
     "yeoman",
@@ -22,10 +23,8 @@
     "template"
   ],
   "files": [
-    "lib"
+    "generators"
   ],
-  "main": "lib/index",
-  "types": "lib/index",
   "scripts": {
     "clean": "rimraf lib && rimraf coverage",
     "format": "prettier --write \"{src,__tests__}/**/*.ts\" --single-quote --trailing-comma es5",
